@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\GUSTAVO\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add dotenv -D
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GUSTAVO\Documents\Documentos Udemy\Git\cmd;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\GUSTAVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\GUSTAVO\.dotnet\tools;C:\Xamp\php;C:\Users\GUSTAVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\GUSTAVO\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "ignit-nlw",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsx watch src/server.ts",
+      "lint": "eslint src --ext .ts --fix"
+    },
+    "author": "Gustavo Tavares",
+    "license": "ISC",
+    "devDependencies": {
+      "@rocketseat/eslint-config": "^1.2.0",
+      "@types/node": "20.1.4",
+      "eslint": "^8.40.0",
+      "prisma": "^4.14.0",
+      "tsx": "^3.12.7",
+      "typescript": "5.0.4"
+    },
+    "dependencies": {
+      "@fastify/cors": "^8.2.1",
+      "@prisma/client": "^4.14.0",
+      "fastify": "^4.17.0",
+      "zod": "^3.21.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
